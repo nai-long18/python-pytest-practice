@@ -1,0 +1,12 @@
+import pytest
+from practice.calculator import calculator
+class TestCalculator:
+    @pytest.mark.skipif(1==4,reason="meiyouliyou")
+    def test_add_int(self):
+        cal=calculator()
+        assert cal.add(1,2)==3
+
+    def test_add_float(self):
+        cal=calculator()
+        assert cal.add(1.1,2.1)==3.2
+
