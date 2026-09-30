@@ -5,6 +5,7 @@ class TestCalculator:
     def test_add_int(self):
         cal=calculator()
         assert cal.add(1,2)==3
+        assert cal.add(-1,-4)==-5
 
     def test_add_float(self):
         cal=calculator()
