@@ -9,5 +9,5 @@ class TestCalculator:
 
     def test_add_float(self):
         cal=calculator()
-        assert cal.add(1.1,2.1)==3.2
+        assert cal.add(1.5,2.6)==4.1
 
